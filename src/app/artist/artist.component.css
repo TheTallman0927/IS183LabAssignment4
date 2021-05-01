@@ -1,0 +1,128 @@
+#about-container {
+    height: 100%;
+    overflow: auto;
+}
+
+#about-container-inner-top {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-row-gap: 1em;
+    width: 80%;
+    margin: 0px auto;
+}
+#about-container-inner-bottom {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-row-gap: 1em;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.top-nav {
+    background-color: #222;
+    height: 55px;
+    border-color: #080808;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 1em;
+}
+.top-text {
+    color:white;
+}
+
+.top-nav-item {
+    list-style-type: none;
+}
+.top-nav-item > li {
+    display: inline;
+}
+.top-nav-item > li a {
+    color: #fff;
+    padding: 5px;
+}
+.main-nav {
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    
+}
+
+.bottom-nav {
+    background-color: white;
+    
+}
+.logo-txt {
+    font-size: 1.75em !important; 
+        font-weight: bold;
+}
+ .white {
+     background-color: white !important;
+ }
+
+ .art-content {
+     display: grid; 
+ }
+ .art-CL-content {
+     display: grid;
+ }
+ .CL-left {
+    background-image: url('../../assets/img/113010.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+ }
+
+ .art-CR {
+    height: 100%;
+ }
+
+ .btn-bordered {
+     border: 1px solid black;
+ }
+ .product-table{
+    width: 100%;
+    table-layout: fixed;
+    border: 1px solid black;
+ }
+
+ .product-table  thead  tr {
+     background-color: grey;
+     
+ }
+
+ .product-table td {
+     border-bottom: 1px solid black;
+     padding: 2px 3px;
+ }
+
+ .small-text {
+     font-size: .95em;
+ }
+
+ .bordered {
+     border: 1px solid black;
+     border-radius: 7px;
+     padding: 1em;
+ }
+
+ /* artist container grid */ 
+ .artist-container-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr;
+    /* min-height: 500px; */
+    grid-gap: 1em;
+    justify-items: center;
+ }
+
+ .artist-card {
+     padding: 1em;
+     border-radius: 3px;
+     border: 1px solid lightgray;
+ }
+
+ h2.small{
+     font-size: 1.5em;
+     padding: 20px 0px 10px;
+ }
+ /* end of artist container grid*/  

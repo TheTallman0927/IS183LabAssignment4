@@ -1,0 +1,13 @@
+.bordered {
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 1em;
+}
+
+.btn-bordered {
+    border: 1px solid black;
+}
+
+.small-text {
+    font-size: .95em;
+}

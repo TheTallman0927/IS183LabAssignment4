@@ -1,1 +1,109 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+/* home page css */
+
+h1 {
+    font-size: 2em;
+}
+
+.full-width{
+    width:100%;
+}
+.cursive {
+    font-family: 'cookie', cursive;
+}
+.thumb-nail-pic {
+    border-radius: 50%;
+}
+
+.drop-shadow {
+text-shadow: 1px 2px 3px black;
+}
+
+#home-container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.r1{
+    background-color: black;
+    background-image: url('./assets/img/david.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.r1-inner {
+    height: 100%;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.home-main-nav {
+    padding-top: 2em;
+}
+
+.home-main-nav > ul {
+    list-style-type: none;
+}
+
+.home-main-nav > ul > li {
+    display: inline;
+    font-size: 1.75em;
+    
+}
+
+.home-main-nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    padding: 15px .5em;
+    text-shadow: 2px 2px 3px black;
+}
+.home-main-nav > ul > li:first-child {
+    font-family: 'cookie', cursive;
+}
+
+.home-main-nav > ul > li:first-child a:hover {
+    background-color: transparent;
+    color: purple;
+}
+
+.home-main-nav > ul > li > a:hover {
+    background-color: white;
+    color: red;
+}
+
+.gallery-discription {
+    padding-top: 15%;
+    padding-bottom: 40px;
+    text-align: center;
+    color: white;
+    font-style: 1.4em;
+}
+
+.r2 {
+    display: grid;
+    padding: 2em 0ex;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    height: 100%;
+    width: 80%;
+    margin: 0px auto;
+    grid-column-gap: 1em;
+}
+.r2 > div {
+    text-align: center;
+}
+.left-align {
+    text-align: left;
+}
+
+/* end of home page css */

@@ -1,0 +1,228 @@
+#about-container {
+    height: 100%;
+    overflow: auto;
+}
+
+#about-container-inner-top {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-row-gap: 1em;
+    width: 80%;
+    margin: 0px auto;
+}
+#about-container-inner-bottom {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-row-gap: 1em;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.top-nav {
+    background-color: #222;
+    height: 55px;
+    border-color: #080808;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 1em;
+}
+.top-text {
+    color:white;
+}
+
+.top-nav-item {
+    list-style-type: none;
+}
+.top-nav-item > li {
+    display: inline;
+}
+.top-nav-item > li a {
+    color: #fff;
+    padding: 5px;
+}
+.main-nav {
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    
+}
+
+.bottom-nav {
+    background-color: white;
+    
+}
+.logo-txt {
+    font-size: 1.75em !important; 
+        font-weight: bold;
+}
+ .white {
+     background-color: white !important;
+ }
+
+ .banner {
+     height: 380px;
+     border-radius: 10px;
+     background-image: url('../../assets/img/whistler.jpg');
+     background-repeat: no-repeat ;
+     background-size: cover;
+     background-position: 50% 15%;
+     color: white;
+     padding: 3em;
+ }
+
+ .art-content {
+     display: grid; 
+     grid-template-columns: 3fr 1fr;
+ }
+ .art-CL-content {
+     display: grid;
+     grid-template-columns: 3fr 4fr;
+     grid-column-gap: 2em;
+ }
+ .CL-left {
+    background-image: url('../../assets/img/113010.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+ }
+
+ /*.CL-right{
+
+ /* } 
+
+ .art-CL {
+    
+ }  */
+
+ .art-CR {
+    height: 100%;
+ }
+
+ .side-bar{
+    margin-left: 10%;
+    height: 100%;
+    margin-bottom: 50px;
+ }
+ .side-bar-section{
+     padding: 5px 5px 5px ;
+ }
+ .side-bar-header{
+     background-color:mediumturquoise;
+     margin: 2px;
+     text-align: center;
+ }
+ .side-bar-table{
+     width: 100%;
+ }
+
+ .side-Bar-Bordered{
+        border: 1px solid mediumturquoise;
+        border-radius: 7px;
+        padding: 1em;
+ }
+ .side-bar-list{
+    list-style-type: none;
+}
+.side-bar-list > li{
+    margin-bottom: 30px;
+}
+ul.side-bar-list > li> img {
+    float: left;
+    margin-right: 7px;
+}
+.sidebar-button{
+    float: left;
+}
+
+.cart-subtotal{
+    font-size: medium;
+}
+ .red-text{
+    color:red;
+ }
+
+ .btn-bordered {
+     border: 1px solid black;
+ }
+ .product-table{
+    width: 100%;
+    table-layout: fixed;
+    border: 1px solid black;
+ }
+
+ .product-table  thead  tr {
+     background-color: grey;
+     
+ }
+
+ .product-table td {
+     border-bottom: 1px solid black;
+     padding: 2px 3px;
+ }
+
+ .similar-products {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     justify-items: center;
+     /*height: 300px;*/
+     text-align: center;
+     grid-column-gap: 1em;
+     margin: 20px 0px;
+ }
+
+ .small-text {
+     font-size: .95em;
+ }
+
+ .bordered {
+     border: 1px solid black;
+     border-radius: 7px;
+     padding: 1em;
+ }
+
+ /* Footer Start */ 
+
+ .top-footer {
+     background-color: #E7E7E7;
+     width: auto;
+ }
+ .bottom-footer {
+     background-color: red;
+ }
+
+.footer-inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+    margin: 0px auto;
+    height: 100%;
+    padding: 10px 0px 0px;
+    grid-column-gap: 1em;
+}
+ .medium-txt {
+     font-size: 1.25em;
+     margin-bottom: 20px;
+ }
+
+ .footer-list{
+     list-style-type: none;
+ }
+ .footer-list > li{
+    margin-bottom: 15px;
+}
+
+ .anker-list {
+     padding: 15px 0px;
+     display: block;
+ }
+
+ ul.footer-list > li> img {
+     float: left;
+     margin-right: 15px;
+ }
+
+ .footer-outer {
+     text-align: center;
+     font-weight: bold;
+ }
+/* Footer End */ 

@@ -1,0 +1,195 @@
+<div id="about-container">
+    <div id="about-container-inner-top">
+        <!--<i class="fas fa-ad"></i>-->
+        <app-header></app-header>
+        <div class="art-content">
+            <div class="art-CL">
+                <h1>Self-portrait in a Straw Hat</h1>
+                <p>By <a href="#">Louise Elisabeth Lebrun</a></p>
+                <div class="art-CL-content">
+                    <div class="CL-left">
+
+                    </div>
+                    <div class="CL-right">
+                        <p>The painting appears, after cleaning, to be an autograph replica of a picture, the
+                            original of which was painted in Brussels in 1782 in free limitation of Rubens's
+                            'Chapeau de Paille', which Lebrun had seen in Antwerp. It was exhibited in Paris in 1782
+                            at the Salon de la Correspondance. LeBrun's original is recorded in a private collection
+                            in France. </p>
+                        <h2 class="red-text">$17,000</h2>
+                        <div class="btn-group full-width btn-bordered">
+                            <button class="btn btn-info drop-shadow">Add to Wish list</button>
+                            <button class="btn btn-info drop-shadow">Add to Shopping Cart</button>
+                        </div>
+                        <br>
+                        <br>
+                        <table class="product-table">
+                            <thead>
+                                <tr>
+                                    <td colspan="2">Product Details</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Date:</td>
+                                    <td>1782</td>
+                                </tr>
+                                <tr>
+                                    <td>Medium:</td>
+                                    <td>oil on canvas</td>
+                                </tr>
+                                <tr>
+                                    <td>Dimensions:</td>
+                                    <td>98cm x 71cm</td>
+                                </tr>
+                                <tr>
+                                    <td>Home:</td>
+                                    <td>National Gallery, London</td>
+                                </tr>
+                                <tr>
+                                    <td>Genres:</td>
+                                    <td>Realism, Rococo</td>
+                                </tr>
+                                <tr>
+                                    <td>Subjects:</td>
+                                    <td>People, Arts</td>
+                                </tr>
+                            </tbody>
+                            <tfoot></tfoot>
+                        </table>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h1>Similar Products</h1>
+                <div class="similar-products">
+                    <app-similar-product-card *ngFor="let item of similarProducts" [cardItem]="item">
+                    </app-similar-product-card>
+
+                </div>
+            </div>
+            <div class="art-CR">
+                <div class="side-bar">
+                    <div class="side-bar-section">
+                        <h3 class="side-bar-header">Cart</h3>
+                        <div class="side-Bar-Bordered side-bar-table">
+                            <ul class="side-bar-list">
+                                <li>
+                                    <img src="../assets/img//tiny/116010.jpg" alt="img1">
+                                    <div>
+                                        <a href="#">Artist Holding a Thistle</a><br><br>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="../assets/img//tiny/113010.jpg" alt="img2">
+                                    <div>
+                                        <a href="#">Self-portrait in a Straw Hat</a><br>
+
+                                    </div>
+                                </li>
+                            </ul>
+                            <br>
+                            <h2 class="cart-subtotal">Subtotal: $20000.00</h2>
+                            <button class="btn btn-primary" href="#"><i class="fas fa-edit"></i> edit</button>
+                            <button class="btn btn-primary" href="#"><i class="fas fa-cash-register"></i>
+                                Checkout</button>
+                        </div>
+                    </div>
+                    <div class="side-bar-section">
+                        <h3 class="side-bar-header">Popular Artist</h3>
+                        <div class="side-Bar-Bordered side-bar-table">
+                            <ul class="footer-list">
+                                <li><a class="anker-list" href="#">Caravaggio</a></li>
+                                <li><a class="anker-list" href="#">Cezanne</a></li>
+                                <li><a class="anker-list" href="#">Matisse</a></li>
+                                <li><a class="anker-list" href="#">Michelangelo</a></li>
+                                <li><a class="anker-list" href="#">Picasso</a></li>
+                                <li><a class="anker-list" href="#">Raphael</a></li>
+                                <li><a class="anker-list" href="#">Van Gogh</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="side-bar-section">
+                        <h3 class="side-bar-header">Popular Genres</h3>
+                        <div class="side-Bar-Bordered side-bar-table">
+                            <ul class="footer-list">
+                                <li><a class="anker-list" href="#">Baroque</a></li>
+                                <li><a class="anker-list" href="#">Cubism</a></li>
+                                <li><a class="anker-list" href="#">Impressionism</a></li>
+                                <li><a class="anker-list" href="#">Renaissance</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about-container-inner-bottom">
+        <footer class="top-footer">
+            <div class="footer-inner">
+                <div class="bordered">
+                    <h3 class="medium-txt"><i class="far fa-address-card"></i> About Us</h3>
+                    <p>Lorem Ipsum is simply dummy txt of the printing and typsetting industry. Lorem Ispum has
+                        been
+                        the industry standard dummy text ever since the 1500s</p>
+                </div>
+                <div class="bordered">
+                    <h3 class="medium-txt"><i class="fas fa-concierge-bell"></i> Customer Service</h3>
+                    <ul class="footer-list">
+                        <li><a class="anker-list" href="#">Delivery Information</a></li>
+                        <li><a class="anker-list" href="#">Privacy Policy</a></li>
+                        <li><a class="anker-list" href="#">Shipping</a></li>
+                        <li><a class="anker-list" href="#">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="bordered">
+                    <h3 class="medium-txt"><i class="fas fa-dolly"></i> Just Ordered</h3>
+                    <ul class="footer-list">
+                        <li>
+                            <img src="../assets/img//tiny/13030.jpg" alt="img1">
+                            <div>
+                                <a href="#">Arragnement in Grey and Black</a><br>
+                                <span>5 minutes ago</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../assets/img//tiny/116010.jpg" alt="img2">
+                            <div>
+                                <a href="#">Artist Holding a Thistle</a><br>
+                                <span>11 minutes ago</span>
+                            </div>
+                            <br>
+                        </li>
+                        <li>
+                            <img src="../assets/img//tiny/113010.jpg" alt="img3">
+                            <div>
+                                <a href="#">Self-portrait in a Straw Hat</a><br>
+                                <span>23 minutes ago</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bordered">
+                    <h3 class="medium-txt"><i class="far fa-address-book"></i> Contact Us</h3>
+                    <div class="form-group">
+                        <input class="form-control form-control-lg" type="text" placeholder="Enter Name ...">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control form-control-lg" type="text" placeholder="Enter Name ...">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="validationtextarea" placeholder="Enter Message"
+                            required></textarea>
+                    </div>
+                    <button class="btn btn-primary full-width"> Submit</button>
+                </div>
+            </div>
+        </footer>
+        <footer class="bottom-footer">
+            <div class="footer-outer">
+                All images are copyright to their owners. This is just a hypothetical site. 2021 Copyright Art
+                Store.
+            </div>
+        </footer>
+    </div>
+</div>
